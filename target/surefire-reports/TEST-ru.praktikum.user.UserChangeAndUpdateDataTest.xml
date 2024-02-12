@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.praktikum.user.UserChangeAndUpdateDataTest" time="33.209" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tatanadudnik/Diplom_2-Dudnik/target/test-classes:/Users/tatanadudnik/Diplom_2-Dudnik/target/classes:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tatanadudnik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tatanadudnik/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/tatanadudnik/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/tatanadudnik/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-junit4/2.25.0/allure-junit4-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/tatanadudnik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-rest-assured/2.25.0/allure-rest-assured-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-attachments/2.25.0/allure-attachments-2.25.0.jar:/Users/tatanadudnik/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/tatanadudnik/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tatanadudnik/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tatanadudnik/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tatanadudnik/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tatanadudnik/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tatanadudnik/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tatanadudnik/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:"/>
+    <property name="https.proxyPort" value="8889"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tatanadudnik/Diplom_2-Dudnik/target/surefire/surefirebooter3094083131761701039.jar /Users/tatanadudnik/Diplom_2-Dudnik/target/surefire 2024-01-27T14-22-15_673-jvmRun1 surefire9345537581864627809tmp surefire_03094700888590382912tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tatanadudnik/Diplom_2-Dudnik/target/test-classes:/Users/tatanadudnik/Diplom_2-Dudnik/target/classes:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tatanadudnik/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tatanadudnik/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tatanadudnik/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/tatanadudnik/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/tatanadudnik/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/tatanadudnik/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/tatanadudnik/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-junit4/2.25.0/allure-junit4-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/tatanadudnik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-rest-assured/2.25.0/allure-rest-assured-2.25.0.jar:/Users/tatanadudnik/.m2/repository/io/qameta/allure/allure-attachments/2.25.0/allure-attachments-2.25.0.jar:/Users/tatanadudnik/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/tatanadudnik/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tatanadudnik/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tatanadudnik/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tatanadudnik/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tatanadudnik/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tatanadudnik/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tatanadudnik/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/Users/tatanadudnik/Diplom_2-Dudnik/target/allure-results"/>
+    <property name="user.home" value="/Users/tatanadudnik"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-22"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="basedir" value="/Users/tatanadudnik/Diplom_2-Dudnik"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tatanadudnik/Diplom_2-Dudnik/target/surefire/surefirebooter3094083131761701039.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20.1+9-LTS"/>
+    <property name="user.name" value="tatanadudnik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.20.9.1"/>
+    <property name="localRepository" value="/Users/tatanadudnik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7n/g6npbf4902103mbps860mdfc0000gn/T/"/>
+    <property name="idea.version" value="2023.2.4"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/Users/tatanadudnik/Diplom_2-Dudnik"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tatanadudnik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.20.1+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="http.proxyPort" value="8889"/>
+  </properties>
+  <testcase name="updateLoginUser[0 : update Замена всех полей]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.596"/>
+  <testcase name="updateWithoutLogin[0 : update Замена всех полей]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.768"/>
+  <testcase name="updateLoginUser[1 : update Замена поля почты, поля пароль и имя старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.609"/>
+  <testcase name="updateWithoutLogin[1 : update Замена поля почты, поля пароль и имя старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="1.35"/>
+  <testcase name="updateLoginUser[2 : update Замена поля пароль, поля почта и имя старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.642"/>
+  <testcase name="updateWithoutLogin[2 : update Замена поля пароль, поля почта и имя старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.584"/>
+  <testcase name="updateLoginUser[3 : update Замена поля имя, поля почта и пароль старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.386"/>
+  <testcase name="updateWithoutLogin[3 : update Замена поля имя, поля почта и пароль старые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="1.064"/>
+  <testcase name="updateLoginUser[4 : update Замена поля почты, поля пароль и имя пустые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.465"/>
+  <testcase name="updateWithoutLogin[4 : update Замена поля почты, поля пароль и имя пустые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.541"/>
+  <testcase name="updateLoginUser[5 : update Замена поля пароля, поля почта и имя пустые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.373"/>
+  <testcase name="updateWithoutLogin[5 : update Замена поля пароля, поля почта и имя пустые]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.679"/>
+  <testcase name="updateLoginUser[6 : update Замена поля имя]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.184"/>
+  <testcase name="updateWithoutLogin[6 : update Замена поля имя]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.528"/>
+  <testcase name="updateLoginUser[7 : update Замена полей почты и пароль]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.341"/>
+  <testcase name="updateWithoutLogin[7 : update Замена полей почты и пароль]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="1.04"/>
+  <testcase name="updateLoginUser[8 : update Замена полей пароль и имя]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.842"/>
+  <testcase name="updateWithoutLogin[8 : update Замена полей пароль и имя]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="1.068"/>
+  <testcase name="updateLoginUser[9 : update Замена полей почта и имя, поле пароль пустое]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="2.419"/>
+  <testcase name="updateWithoutLogin[9 : update Замена полей почта и имя, поле пароль пустое]" classname="ru.praktikum.user.UserChangeAndUpdateDataTest" time="0.659"/>
+</testsuite>

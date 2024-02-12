@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ru.praktikum.order.CreateOrderTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.473 s <<< FAILURE! - in ru.praktikum.order.CreateOrderTest
+createOrderFromLoginUser[3](ru.praktikum.order.CreateOrderTest)  Time elapsed: 3.121 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: Ingredient ids must be provided
+  Actual: One or more ids provided are incorrect
+
+	at ru.praktikum.order.CreateOrderTest.createOrderFromLoginUser(CreateOrderTest.java:80)
+
+createOrderWithoutLogin[3](ru.praktikum.order.CreateOrderTest)  Time elapsed: 0.957 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: Ingredient ids must be provided
+  Actual: One or more ids provided are incorrect
+
+	at ru.praktikum.order.CreateOrderTest.createOrderWithoutLogin(CreateOrderTest.java:110)
+
