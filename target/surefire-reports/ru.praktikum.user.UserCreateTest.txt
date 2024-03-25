@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: ru.praktikum.user.UserCreateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 9.046 s <<< FAILURE! - in ru.praktikum.user.UserCreateTest
+createUserWithOutEmailTest(ru.praktikum.user.UserCreateTest)  Time elapsed: 0.931 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <403>.
+
+	at ru.praktikum.user.UserCreateTest.createUserWithOutEmailTest(UserCreateTest.java:100)
+
+createUserWithoutNameTest(ru.praktikum.user.UserCreateTest)  Time elapsed: 1.09 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <403>.
+
+	at ru.praktikum.user.UserCreateTest.createUserWithoutNameTest(UserCreateTest.java:117)
+
+createUserWithoutPasswordTest(ru.praktikum.user.UserCreateTest)  Time elapsed: 0.983 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <403>.
+
+	at ru.praktikum.user.UserCreateTest.createUserWithoutPasswordTest(UserCreateTest.java:83)
+
+createTwoUsersWithSameData(ru.praktikum.user.UserCreateTest)  Time elapsed: 2.959 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: User with such email already exists
+  Actual: User already exists
+
+	at ru.praktikum.user.UserCreateTest.createTwoUsersWithSameData(UserCreateTest.java:69)
+

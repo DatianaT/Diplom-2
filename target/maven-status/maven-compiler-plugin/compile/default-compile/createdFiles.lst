@@ -1,0 +1,17 @@
+ru/praktikum/models/order/OrderGenerator.class
+ru/praktikum/models/user/UserCredsWithoutPassword.class
+ru/praktikum/constants/AllConstants.class
+ru/praktikum/models/user/User.class
+ru/praktikum/models/user/UserCredsWithoutEmail.class
+ru/praktikum/models/user/User$UserBuilder.class
+ru/praktikum/user/UserGenerator.class
+ru/praktikum/models/user/UserCredsWithoutPassword$UserCredsWithoutPasswordBuilder.class
+ru/praktikum/models/user/UserCreds$UserCredsBuilder.class
+ru/praktikum/Order/OrderCreate.class
+ru/praktikum/models/user/UserCreds.class
+ru/praktikum/user/DeleteUser.class
+ru/praktikum/models/order/Order.class
+ru/praktikum/Order/OrderGetFromUser.class
+ru/praktikum/user/UserCreateAndAuthorization.class
+ru/praktikum/user/UserUpdateAndChangeData.class
+ru/praktikum/models/user/UserCredsWithoutEmail$UserCredsWithoutEmailBuilder.class
